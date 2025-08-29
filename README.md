@@ -19,8 +19,6 @@
 - Estado persistido em `db.json` (via API fake local ou `json-server`)
 - Layout responsivo e estilização básica com CSS ou Framework
 
-*(Adapte ou substitua conforme o que seu projeto já implementa.)*
-
 ---
 
 ## 📦 Instalação
@@ -72,8 +70,6 @@ npm run json-server
 - `PATCH /tasks/:id`
 - `DELETE /tasks/:id`
 
-*(Ajuste conforme sua implementação real.)*
-
 ---
 
 ## 📂 Estrutura do Projeto (exemplo)
@@ -104,8 +100,6 @@ ReactKanban/
 └── README.md
 ```
 
-*(Ajuste conforme seu repositório real.)*
-
 ---
 
 ## 🌍 Rotas (exemplo)
@@ -114,8 +108,6 @@ Se o app utiliza roteamento:
 
 - `/` – Quadro Kanban principal
 - `localhost:3300/tasks/:id` – Visualização ou edição de um cartão específico
-
-*(Modifique conforme sua realidade.)*
 
 ---
 
