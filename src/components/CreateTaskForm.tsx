@@ -32,7 +32,7 @@ export const CreateTaskForm: React.FC = () => {
   return (
     <Dialog.Root>
         <Dialog.Trigger>
-            <Button>
+            <Button variant="outline" color="blue">
                 <PlusIcon/>Adicionar tarefa
             </Button>
         </Dialog.Trigger>

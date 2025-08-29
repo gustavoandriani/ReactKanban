@@ -21,7 +21,7 @@ export const tasksService = {
 
     async updateTask(id: string, attributes: Partial<Omit<Task, "id">>): Promise<Task> {
         const response = await fetch(`${import.meta.env.VITE_API_URL}/tasks/${id}`, {
-            method: "PUT",
+            method: "PATCH",
             headers: {
                 "Content-Type": "application/json"
             },
