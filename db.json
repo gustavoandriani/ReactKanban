@@ -27,6 +27,13 @@
       "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
       "status": "todo",
       "priority": "medium"
+    },
+    {
+      "id": "cb89",
+      "title": "Teste 1",
+      "description": "reweq",
+      "status": "doing",
+      "priority": "high"
     }
   ]
 }
